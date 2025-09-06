@@ -38,7 +38,7 @@ docker run -it --privileged \
     -e CONTROLLER_USER=admin \
     -e CONTROLLER_PWD=***** \
     -e CONTROLLER_ENABLE_ALERTS=false \
-    -e CONTROLLER_ENABLE_LOGS=false \
+    -e CONTROLLER_ENABLE_LOGS=true \
     -e SCANNERS_WORKSPACE=/altprobe_workspace \
     -e SCANNERS_OUTPUT=/altprobe_output \
     -e SENSORS_APP_LOG=indef \
